@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/AbouAbdallah-Lounis/OBD-Dataset",
+  "commit": "a9c96dc146aeeb62ef75d3b453c238f5379ccff5",
+  "license": "CC BY 4.0 (repository README)",
+  "files": {
+    "feature_derivation_train.py": "7ec4804b990194364d91eb0b420595f9fdb4495e5128b55f59df0a3429f94c48",
+    "MASTER_TEST_X.xlsx": "9f4047f5964a450e03fa96de4b4927c09171998713e4222e5285cae3a0c1b1d4",
+    "MODEL.py": "28f29acea165e4a6eb21217ef019a1c8fa9dd378a2f4774587144c37c6951022",
+    "README.md": "3ee22525a547950d479a5494a837cbdb501baa2a54d817766ebdbeddb61643e7",
+    "MASTER_TRAIN_X.xlsx": "4af148292731d3e16429a71fc4edd4de060930e9a0e2476f9389214c8bb9af32"
+  }
+}

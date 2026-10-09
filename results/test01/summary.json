@@ -1,0 +1,61 @@
+{
+  "source_commit": "a9c96dc146aeeb62ef75d3b453c238f5379ccff5",
+  "random_state": 42,
+  "audit": {
+    "train_raw_rows": 118477,
+    "test_raw_rows": 33838,
+    "label_audit": {
+      "Train": {
+        "healthy_and_fault_rows": 0,
+        "all_zero_label_rows": 4391,
+        "eligible_rows": 114086
+      },
+      "Test": {
+        "healthy_and_fault_rows": 0,
+        "all_zero_label_rows": 1096,
+        "eligible_rows": 32742
+      }
+    },
+    "train_duplicate_rows_removed": 87604,
+    "test_duplicate_rows_removed": 25521,
+    "test_sensor_overlap_rows_excluded": 170,
+    "train_rows_used": 26482,
+    "test_rows_used": 7051,
+    "conflicting_sensor_groups": {
+      "Train": 0,
+      "Test": 0
+    }
+  },
+  "binary_metrics": {
+    "Most-frequent baseline": {
+      "accuracy": 0.6972060700609842,
+      "balanced_accuracy": 0.5,
+      "fault_precision": 0.6972060700609842,
+      "fault_recall": 1.0,
+      "fault_f1": 0.8215927132948943
+    },
+    "Random Forest": {
+      "accuracy": 0.9795773649127784,
+      "balanced_accuracy": 0.9662763466042155,
+      "fault_precision": 0.9715415019762846,
+      "fault_recall": 1.0,
+      "fault_f1": 0.9855653568564555
+    }
+  },
+  "multilabel_metrics": {
+    "Most-frequent baseline": {
+      "exact_match": 0.0,
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "hamming_loss": 0.16813217983264786
+    },
+    "Random Forest": {
+      "exact_match": 0.9370302084810666,
+      "micro_f1": 0.963093250655855,
+      "macro_f1": 0.9750936350084477,
+      "hamming_loss": 0.012541280872014102
+    }
+  },
+  "contradictory_multilabel_predictions": 78,
+  "limitation": "No vehicle ID or timestamps; not unseen-vehicle validation"
+}

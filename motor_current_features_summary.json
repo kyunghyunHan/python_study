@@ -1,0 +1,31 @@
+{
+  "data_root": "/Users/hangyeonghyeon/Desktop/Py/python_study/2020-02-125.기계시설물고장예지_sample",
+  "output": "/Users/hangyeonghyeon/Desktop/Py/python_study/motor_current_features.csv",
+  "discovered_files": 2334,
+  "output_rows": 2334,
+  "successful_files": 2334,
+  "failed_files": 0,
+  "missing_metadata_files": 0,
+  "label_mismatch_files": 0,
+  "status_counts": {
+    "ok": 2334
+  },
+  "label_counts": {
+    "베어링불량": 200,
+    "벨트느슨함": 315,
+    "정상": 1062,
+    "축정렬불량": 364,
+    "회전체불평형": 393
+  },
+  "model_counts": {
+    "2.2kW/L-DSF-01": 461,
+    "2.2kW/L-EF-04": 896,
+    "2.2kW/L-SF-04": 277,
+    "2.2kW/R-EF-05": 251,
+    "55.0kW/L-PAHU-03S": 261,
+    "55.0kW/R-PAHU-04S": 188
+  },
+  "split_counts": {
+    "unspecified": 2334
+  }
+}

@@ -1,0 +1,15 @@
+2020-02-125.기계시설물고장예지_sample
+
+# Excel workbooks (all folders, including uppercase extensions)
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+*.[xX][lL][sS][bB]
+*.[xX][lL][tT]
+*.[xX][lL][tT][xX]
+*.[xX][lL][tT][mM]
+
+# CSV datasets (all folders, including uppercase extensions)
+*.[cC][sS][vV]
+*.csv
+*.png
